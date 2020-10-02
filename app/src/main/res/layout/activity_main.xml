@@ -9,12 +9,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/pertanyaan"
+        android:id="@id/pertanyaan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pertanyaan kuis"
-        android:textSize="14sp" />
-
+        android:text="Pertayaan : "
+        android:text_size="25sp"/>
+    
     <RadioGroup
         android:id="@+id/radio_group"
         android:layout_width="wrap_content"
